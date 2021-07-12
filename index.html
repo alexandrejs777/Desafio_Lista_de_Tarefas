@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+
+</head>
+
+<body onload="taskCounter()">
+
+    <div class="container">
+
+        <header>
+
+            <h1 class="title">Lista de Tarefas</h1>
+
+        </header>
+
+        <section>
+
+            <div class="content1">
+
+                <input id="text" type="text" onkeypress="keyPress(event)" placeholder="Digite uma tarefa...">
+
+                <button>Adicionar</button>
+
+            </div>
+
+            <div class="content2">
+
+                <ul>
+
+                </ul>
+
+            </div>
+            
+        </section>
+
+        <footer>
+
+            <p id="count"></p>
+
+        </footer>
+
+        <script src="./Javascript/script.js"></script>
+
+    </div>
+
+</body>
+
+</html>

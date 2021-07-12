@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+}
+
+html, body {
+    min-height: 100%;
+    background-color: #E9EBEC;
+}
+
+body, button, input {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    background-color: #333333;
+    text-align: center;
+}
+
+.title {
+    margin-top: 16px;
+    font-size: 50px;
+    color: white;
+}
+
+section {
+    background-image: url(../assets/leone-venter-VieM9BdZKFo-unsplash.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    float: left;
+    height: 100%;
+}
+
+.content1 {
+    margin-top: 36px;
+    margin-left: 32px;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+}
+
+.content1 input {
+    border-bottom: 1px solid #333333;
+    margin-right: 16px;
+    font-size: 30px;
+    width: 100%;
+    background: transparent;
+}
+
+.content1 button {
+    padding: 4px 16px;
+    border-radius: 32px;
+    cursor: pointer;
+    background-color:darkorange;
+    color: white;
+    font-size: 32px;
+}
+
+.content2 {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 32px;
+    max-width: 50%;
+    padding: 40px;
+    height: auto;
+    border-radius: 16px;
+    background-color: #FFFFFFBB;
+}
+
+ul {
+    margin-top: 16px;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 32px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+li button {
+    padding: 4px 16px;
+    border-radius: 34px;
+    cursor: pointer;
+    background-color:darkorange;
+    color: white;
+    font-size: 24px;
+}
+
+#count{
+    font-size: 40px;
+    color: white;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+}
+
+ @media screen and (max-width: 1024px){
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    section {
+        background-image: url(../assets/leone-venter-VieM9BdZKFo-unsplash.png);
+        background-size:100%;
+        background-repeat: no-repeat;
+        background-color: #E9EBEC;
+        overflow: hidden;
+    }
+
+    .content1 {
+        margin-top: 36px;
+        margin-left: 2px;
+        max-width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 16px;
+    }
+
+    .content1 input {
+        border-bottom: 1px solid #333333;
+        margin-top: 10px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+        font-size: 32px;
+        width: 100%;
+    }
+
+    .content1 button {
+        padding: 2px;
+        border-radius: 32px;
+        cursor: pointer;
+        background-color:darkorange;
+        color: white;
+        font-size: 16px;
+    }
+
+    .content2 {
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-bottom: 5px;
+        max-width: 70%;
+        padding: 4px;
+        height: auto;
+    }
+
+    li {
+        list-style: none;
+        text-align: justify;
+        align-items: center;
+        font-size: 16px;
+        margin: 2px;
+        margin-bottom: 8px;
+        max-width: 100%;
+    }
+    
+    li button {
+        padding: 4px 16px;
+        border-radius: 34px;
+        cursor: pointer;
+        background-color:darkorange;
+        color: white;
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 770px){
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    section {
+        background-image: url(../assets/leone-venter-VieM9BdZKFo-unsplash.png);
+        background-repeat: no-repeat;
+        background-color: #E9EBEC;
+    }
+
+    .container {
+        width: 100%;
+        float: none;
+        height: 100%;
+    }
+
+    .content1 {
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+        max-width: 90%;
+        padding-left: 12px;
+        display:list-item;
+        position: relative;
+    }
+
+    .content1 input {
+        border-bottom: 1px solid #333333;
+        margin-top: 20px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        width: 70%;
+    }
+
+    .content1 button {
+        padding: 2px;
+        border-radius: 32px;
+        cursor: pointer;
+        background-color:darkorange;
+        color: white;
+        font-size: 16px;
+    }
+
+    .content2 {
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-bottom: 5px;
+        max-width: 70%;
+        padding: 10px;
+        height: auto;
+    }
+
+    li {
+        list-style: none;
+        text-align: justify;
+        align-items: center;
+        font-size: 16px;
+        margin: 2px;
+        margin-bottom: 38px;
+        max-width: 100%;
+    }
+    
+    li button {
+        padding: 4px 16px;
+        border-radius: 34px;
+        cursor: pointer;
+        background-color:darkorange;
+        color: white;
+        font-size: 24px;
+        margin-left: 10px;
+    }
+
+    #count{
+        font-size: 20px;
+        color: white;
+    }
+    
+    footer {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        color: white;
+        background-color: #333333;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .content1 {
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+        max-width: 100%;
+        padding-left: 12px;
+        display:list-item;
+        position: relative;
+    }
+
+    .content1 input {
+        border-bottom: 1px solid #333333;
+        margin-top: 20px;
+        margin-right: 2px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .content1 button {
+        padding: 2px;
+        border-radius: 32px;
+        cursor: pointer;
+        background-color:darkorange;
+        color: white;
+        font-size: 16px;
+    }
+
+    .content2 {
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-bottom: 5px;
+        max-width: 90%;
+        padding: 10px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 280px){
+
+    section {
+        background-image: url(./assets/leone-venter-VieM9BdZKFo-unsplash.png);
+        background-repeat: no-repeat;
+        background-color: #E9EBEC;
+    }
+
+    .content1 {
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
+        margin-bottom: 60px;
+        max-width: 100%;
+        padding-left: 0;
+        display:list-item;
+        position: relative;
+    }
+
+    .content1 input {
+        border-bottom: 1px solid #333333;
+        margin-top: 2px;
+        margin-right: 0;
+        margin-bottom: 5px;
+        font-size: 16px;
+        width: 100%;
+        position: absolute;
+    }
+
+    .content1 button {
+        font-size: 20px;
+        position: absolute;
+        left: 50%;
+        top: 35px;
+        transform: translate(-50%);
+    }
+}
