@@ -7,7 +7,7 @@
 
 html, body {
     min-height: 100%;
-    background-color: #E9EBEC;
+    background-color: #333333;
 }
 
 body, button, input {
@@ -31,6 +31,7 @@ section {
     background-image: url(../assets/leone-venter-VieM9BdZKFo-unsplash.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #E9EBEC;
     overflow: hidden;
     width: 100%;
     height: 100%;
