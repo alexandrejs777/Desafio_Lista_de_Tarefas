@@ -17,3 +17,8 @@ As técnologias usadas foram:
 Criar uma lista de tarefas e gravar na memória utilizando LocalStorage.
 
 Neste projeto, consegui entender melhor a utilização do Javascript na criação e alteração de elementos dentro do HTML, elementos pais e filhos e manipulação de itens dentro de um Array.
+
+
+<h2>Observações:</h2>
+
+Ainda tenho que melhorar os códigos do CSS, pois estou repetindo alguns dados para tamanhos de telas diferentes.
