@@ -135,6 +135,8 @@ footer {
         background-repeat: no-repeat;
         background-color: #E9EBEC;
         overflow: hidden;
+        height: 100%;
+        min-height: 1100px;
     }
 
     .content1 {
@@ -151,6 +153,7 @@ footer {
         border-bottom: 1px solid #333333;
         margin-top: 10px;
         margin-right: 2px;
+        margin-left: 20px;
         margin-bottom: 5px;
         font-size: 32px;
         width: 100%;
@@ -167,9 +170,9 @@ footer {
 
     .content2 {
         margin-top: 10px;
-        margin-left: 2px;
+        margin-left: 20px;
         margin-bottom: 5px;
-        max-width: 70%;
+        max-width: 60%;
         padding: 4px;
         height: auto;
     }
@@ -182,6 +185,7 @@ footer {
         margin: 2px;
         margin-bottom: 8px;
         max-width: 100%;
+        padding-bottom: 30px;
     }
     
     li button {
@@ -193,7 +197,6 @@ footer {
         font-size: 24px;
         margin-left: 10px;
     }
-    
 }
 
 @media screen and (max-width: 770px){
@@ -230,7 +233,7 @@ footer {
         margin-right: 2px;
         margin-bottom: 5px;
         font-size: 16px;
-        width: 70%;
+        width: 65%;
     }
 
     .content1 button {
@@ -244,7 +247,7 @@ footer {
 
     .content2 {
         margin-top: 10px;
-        margin-left: 2px;
+        margin-left: 12px;
         margin-bottom: 5px;
         max-width: 70%;
         padding: 10px;
@@ -291,36 +294,43 @@ footer {
         margin-top: 2px;
         margin-left: 2px;
         margin-right: 2px;
+        padding-bottom: 30px;
         max-width: 100%;
-        padding-left: 12px;
+        padding-left: 0;
         display:list-item;
         position: relative;
+        margin-bottom: 20px;
     }
 
     .content1 input {
         border-bottom: 1px solid #333333;
         margin-top: 20px;
-        margin-right: 2px;
+        margin-right: 0;
         margin-bottom: 5px;
         font-size: 16px;
-        width: 80%;
+        width: 90%;
     }
 
     .content1 button {
+        position: absolute;
         padding: 2px;
         border-radius: 32px;
         cursor: pointer;
         background-color:darkorange;
         color: white;
-        font-size: 16px;
+        font-size: 20px;
+        left: 50%;
+        bottom: -10px;
+        transform: translateX(-50%);
     }
 
     .content2 {
         margin-top: 10px;
-        margin-left: 2px;
+        margin-left: 8px;
+        margin-right: 5px;
         margin-bottom: 5px;
         max-width: 90%;
-        padding: 10px;
+        padding-left: 10px;
         height: auto;
     }
 }
@@ -337,7 +347,7 @@ footer {
         margin-top: 10px;
         margin-left: 2px;
         margin-right: 2px;
-        margin-bottom: 60px;
+        margin-bottom: 40px;
         max-width: 100%;
         padding-left: 0;
         display:list-item;
@@ -347,10 +357,11 @@ footer {
     .content1 input {
         border-bottom: 1px solid #333333;
         margin-top: 2px;
-        margin-right: 0;
+        margin-right: 2px;
         margin-bottom: 5px;
+        margin-left: 12px;
         font-size: 16px;
-        width: 100%;
+        width: 90%;
         position: absolute;
     }
 
